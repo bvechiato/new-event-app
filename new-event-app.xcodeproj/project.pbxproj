@@ -9,11 +9,8 @@
 /* Begin PBXBuildFile section */
 		81C458722A3332EB00026C80 /* new_event_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C458712A3332EB00026C80 /* new_event_appApp.swift */; };
 		81C458742A3332EB00026C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C458732A3332EB00026C80 /* ContentView.swift */; };
-		81C458762A3332EC00026C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C458752A3332EC00026C80 /* Assets.xcassets */; };
-		81C458792A3332EC00026C80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C458782A3332EC00026C80 /* Preview Assets.xcassets */; };
-		81C458832A3332EC00026C80 /* new_event_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C458822A3332EC00026C80 /* new_event_appTests.swift */; };
-		81C4588D2A3332EC00026C80 /* new_event_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4588C2A3332EC00026C80 /* new_event_appUITests.swift */; };
-		81C4588F2A3332EC00026C80 /* new_event_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4588E2A3332EC00026C80 /* new_event_appUITestsLaunchTests.swift */; };
+		81C4589C2A33331400026C80 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4589B2A33331400026C80 /* AddEvent.swift */; };
+		81C4589E2A33334800026C80 /* AddEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4589D2A33334800026C80 /* AddEventController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +34,10 @@
 		81C4586E2A3332EB00026C80 /* new-event-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "new-event-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C458712A3332EB00026C80 /* new_event_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_event_appApp.swift; sourceTree = "<group>"; };
 		81C458732A3332EB00026C80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		81C458752A3332EC00026C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81C458782A3332EC00026C80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81C4587E2A3332EC00026C80 /* new-event-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-event-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C458822A3332EC00026C80 /* new_event_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_event_appTests.swift; sourceTree = "<group>"; };
 		81C458882A3332EC00026C80 /* new-event-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new-event-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C4588C2A3332EC00026C80 /* new_event_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_event_appUITests.swift; sourceTree = "<group>"; };
-		81C4588E2A3332EC00026C80 /* new_event_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new_event_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81C4589B2A33331400026C80 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
+		81C4589D2A33334800026C80 /* AddEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				81C458702A3332EB00026C80 /* new-event-app */,
-				81C458812A3332EC00026C80 /* new-event-appTests */,
-				81C4588B2A3332EC00026C80 /* new-event-appUITests */,
 				81C4586F2A3332EB00026C80 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,35 +88,10 @@
 			children = (
 				81C458712A3332EB00026C80 /* new_event_appApp.swift */,
 				81C458732A3332EB00026C80 /* ContentView.swift */,
-				81C458752A3332EC00026C80 /* Assets.xcassets */,
-				81C458772A3332EC00026C80 /* Preview Content */,
+				81C4589B2A33331400026C80 /* AddEvent.swift */,
+				81C4589D2A33334800026C80 /* AddEventController.swift */,
 			);
 			path = "new-event-app";
-			sourceTree = "<group>";
-		};
-		81C458772A3332EC00026C80 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				81C458782A3332EC00026C80 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		81C458812A3332EC00026C80 /* new-event-appTests */ = {
-			isa = PBXGroup;
-			children = (
-				81C458822A3332EC00026C80 /* new_event_appTests.swift */,
-			);
-			path = "new-event-appTests";
-			sourceTree = "<group>";
-		};
-		81C4588B2A3332EC00026C80 /* new-event-appUITests */ = {
-			isa = PBXGroup;
-			children = (
-				81C4588C2A3332EC00026C80 /* new_event_appUITests.swift */,
-				81C4588E2A3332EC00026C80 /* new_event_appUITestsLaunchTests.swift */,
-			);
-			path = "new-event-appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C458792A3332EC00026C80 /* Preview Assets.xcassets in Resources */,
-				81C458762A3332EC00026C80 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C4589C2A33331400026C80 /* AddEvent.swift in Sources */,
 				81C458742A3332EB00026C80 /* ContentView.swift in Sources */,
+				81C4589E2A33334800026C80 /* AddEventController.swift in Sources */,
 				81C458722A3332EB00026C80 /* new_event_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C458832A3332EC00026C80 /* new_event_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C4588F2A3332EC00026C80 /* new_event_appUITestsLaunchTests.swift in Sources */,
-				81C4588D2A3332EC00026C80 /* new_event_appUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +383,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"new-event-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +412,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"new-event-app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
